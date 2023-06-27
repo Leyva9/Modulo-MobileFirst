@@ -1,9 +1,9 @@
 /*
-    1. Posicionamiento
-    2. Modelo de Caja
-    3. Tipografía
-    4. Visuales
-    5. Otros
+    1. Position
+    2. Box Model
+    3. Typography
+    4. Visuals
+    5. Others
 */
 
 :root {
@@ -12,7 +12,7 @@
     --primary-font: 'DM Sans', sans-serif;
     --secundary-font: 'Inter', sans-serif;
 
-    /*Colores*/
+    /*Colors*/
     --linear-bg: #201E1C, #F7931A;
     --bitcoin-orange: #F7931A;
     --soft-orange: #FFE9D4;
@@ -48,6 +48,12 @@ header {
     height: 334px;
     text-align: center;
     background: linear-gradient(207.8deg,#201E1C 16.69%, #F7931A 100%)
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
 }
 
 header img {
@@ -109,5 +115,35 @@ header img {
     height: 17px;
     margin-left: 3px;
     background-image: url(./assets/icos/mdi_keyboard_arrow_down.svg);
+}
+
+/*MAIN CONTENT*/
+.main--exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main--exchange-container-text {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.main--exchange-container-text h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    margin-bottom: 15px;
+}
+
+.main--exchange-container-text p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
 }
 
