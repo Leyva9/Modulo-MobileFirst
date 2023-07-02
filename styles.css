@@ -37,7 +37,9 @@ html {
 }
 
 /* HEADER */
+
     /*Elements*/
+    
 header {
     position: relative;
     display: flex;
@@ -64,7 +66,9 @@ header img {
     margin-top: 40px;
     align-self: center;
 }
+
     /*Class*/
+
 .header--title-container {
     width: 90%;
     min-width: 288px;
@@ -245,7 +249,7 @@ header img {
     background-repeat: no-repeat;
 }
 
-/*Table Borders*/
+/*Currency Table Borders*/
 
 .currency--table-container .table__top-left {
     border-top-left-radius: 10px;
@@ -470,6 +474,8 @@ header img {
     color: #808080;
 }
 
+/*Image Bitcoin Section*/
+
 .bitcoin--image-container {
     width: 100%;
     min-width: 320px;
@@ -488,6 +494,8 @@ header img {
     line-height: 2.6rem;
     color: var(--just-white);
 }
+
+/*Product Plan Section*/
 
 .main--product-plan {
     width: 100%;
