@@ -5,3 +5,13 @@
 .main--tables-container {
     justify-content: center;
 }
+
+.product--detail-articles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
