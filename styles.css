@@ -39,7 +39,7 @@ html {
 /* HEADER */
 
     /*Elements*/
-    
+
 header {
     position: relative;
     display: flex;
@@ -507,7 +507,7 @@ header img {
 
 .product--plan-article-container {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     height: 322px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -544,7 +544,7 @@ header img {
     width: 60%;
     min-width: 200px;
     max-width: 300px;
-    margin: 30px auto;
+    margin: 30px 0;
     height: auto;
     min-height: 245px;
     padding: 0 30px;
